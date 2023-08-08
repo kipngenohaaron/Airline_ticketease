@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 
 const ForgotPasswordForm = () => {
   const [email, setEmail] = useState('');
@@ -14,9 +13,7 @@ const ForgotPasswordForm = () => {
   }
   return (
     <div className="forgot-password-form">
-         <Link to="/login"><button className='Back-button'>
-        Login
-      </button></Link>
+         
       <h2>Forgot Password</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
