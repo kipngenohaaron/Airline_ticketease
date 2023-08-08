@@ -9,7 +9,7 @@ function Navigation(){
                 <h2>Ticket<span>Ease</span></h2>
                 <li className='active'><Link to="/">Home</Link></li>
                 <li><Link to="/login">Login</Link></li>
-                <li><Link to="/signup">Sign Up</Link></li>
+                <li><Link to="/signup">SignUp</Link></li>
             </ul>
          </div>
     )
