@@ -32,7 +32,7 @@ const LoginForm = () => {
     };
   return (
     <div className="login-form">
-      <h3> Welcome to Travelwings!</h3>
+      <h3> Welcome to TicketEase!</h3>
       <h2>Login</h2>
       <h4>Please Enter Your Details;</h4>
       <form onSubmit={handleLogin}>
