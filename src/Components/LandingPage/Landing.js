@@ -2,6 +2,7 @@
 import Navigation from "../../Components/Navigation/Navigation";
 import FlightSearch from "../../Components/FlightsForm/Flights";
 import './Landing.css'
+
 function Landing(){
 
     return(
