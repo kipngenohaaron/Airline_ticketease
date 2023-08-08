@@ -43,7 +43,7 @@ Before you begin, ensure you have met the following requirements:
 2. Navigate to the project directory:
 
    ```bash
-   cd airline-ticket-ease
+   cd Airline_ticketease
    ```
 
 3. Install the project dependencies:
