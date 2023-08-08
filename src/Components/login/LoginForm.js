@@ -25,12 +25,11 @@ const LoginForm = () => {
         .then((data) => console.log(data))
         .catch((error) => console.error('Error saving user data:', error));
 
-      navigate('/Landing'); // Navigate to the home page after successful login
-    } else {
-      alert('Invalid username or password. Please try again.');
-    }
-  };
-
+        navigate('/Landing'); // Navigate to the landing page after successful login
+      } else {
+        alert('Invalid username or password. Please try again.');
+      }
+    };
   return (
     <div className="login-form">
       <h3> Welcome to Travelwings!</h3>
